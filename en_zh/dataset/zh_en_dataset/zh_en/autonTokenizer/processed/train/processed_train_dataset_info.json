@@ -1,0 +1,47 @@
+{
+  "builder_name": "hanz",
+  "citation": "",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "AutoTrain generated dataset",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "en": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "zh": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "en_length": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "zh_length": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2338041,
+      "num_examples": 16350,
+      "dataset_name": null
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}

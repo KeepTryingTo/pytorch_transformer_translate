@@ -1,0 +1,47 @@
+{
+  "builder_name": null,
+  "citation": "",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "AutoTrain generated dataset",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "source": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "feat_en_length": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "feat_zh_length": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": {
+    "valid": {
+      "name": "valid",
+      "num_bytes": 583136,
+      "num_examples": 4088,
+      "dataset_name": null
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}
