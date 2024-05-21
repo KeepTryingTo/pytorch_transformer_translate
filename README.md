@@ -192,4 +192,3 @@ translate.py(将训练好的模型用于用户输入句子的翻译)
 （2）测试从英语到中文的翻译结果：
 <img src = "https://github.com/KeepTryingTo/pytorch_transformer_translate/blob/main/images/en_zh.png"/>
 <img src = "https://github.com/KeepTryingTo/pytorch_transformer_translate/blob/main/images/en_zh02.png"/>
->>>>>>> c7a8673 (pytorch transformer translate)
