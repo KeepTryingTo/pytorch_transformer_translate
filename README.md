@@ -1,6 +1,6 @@
 <p align = "center">
-	<a href = "[https://img.shields.io/badge/any_text-you_like-blue](https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421)"><img src = "https://img.shields.io/badge/any_text-you_like-blue"/></a>
-	<a href = "[https://img.shields.io/badge/any_text-you_like-blue](https://img.shields.io/badge/just%20the%20message-8A2BE2)](https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421)"><img src = "[https://img.shields.io/badge/any_text-you_like-blue](https://img.shields.io/badge/just%20the%20message-8A2BE2)"/></a>
+	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/any_text-you_like-blue"/></a>
+	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/just%20the%20message-8A2BE2"/></a>
 </p>
 
 # pytorch_transformer_translate
