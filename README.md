@@ -7,7 +7,9 @@
 
 <p><strong>1.The project structure</strong></p>
 <hr style="border : 1px dashed blue;" />
-```
+
+````
+
 	en_it
 		configs(include some dataset's information,in fact we don't use it)
 		dataset(include train's dataset)
@@ -52,7 +54,8 @@
 		app.py(web）
 	train_wb.py(with train.py not difference)
 	translate.py(input a single sentence and translate it)
-```
+ 
+````
 <p>Notice: above give some files,when you train youselves dataset,please chanage the path</p>
 <hr style="border : 1px dashed blue;" />
 <p><strong>2.train en_it</strong></p>
@@ -99,7 +102,9 @@ run and then output a url：
 <p><strong>1.项目结构如下</strong></p>
 
 <hr style="border : 1px dashed blue;" />
+
 ````
+
 	en_it
 		configs(主要包含了一些数据集的信息，实际上并没有使用到)
 		dataset(保存数据集的文件)
@@ -144,6 +149,7 @@ run and then output a url：
 		app.py（网页的界面文件）
 	train_wb.py(和上面给出的train.py的内容差不多，区别在于train_wb.py采用了wandb记录训练过程)
 	translate.py(将训练好的模型用于用户输入句子的翻译)
+ 
 ````
 <p>注意：以上的给出的文件目录，在自己训练数据集的过程中，有些路径自己修改一下即可训练自己的模型</p>
 <hr style="border : 1px dashed blue;" />
