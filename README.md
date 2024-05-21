@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+<p align = "center">
+	<a href = "[https://img.shields.io/badge/any_text-you_like-blue](https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421)"><img src = "https://img.shields.io/badge/any_text-you_like-blue"/></a>
+	<a href = "[https://img.shields.io/badge/any_text-you_like-blue](https://img.shields.io/badge/just%20the%20message-8A2BE2)](https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421)"><img src = "[https://img.shields.io/badge/any_text-you_like-blue](https://img.shields.io/badge/just%20the%20message-8A2BE2)"/></a>
+</p>
+
 # pytorch_transformer_translate
 <h>使用pytorch深度学习框架，基于Transformer的机器翻译，并且使用gradio框架写了一个页面用于输入句子进行翻译</h>
 <p>
