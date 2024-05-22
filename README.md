@@ -2,15 +2,15 @@
 	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/Pytorch-NLP-%23CC05FF"/></a>
 	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/Pytorch-Transformer-door"/></a>
 </p>
+<hr style="border : 1px dashed blue;" />
 
 # pytorch_transformer_translate
 <h>使用pytorch深度学习框架，基于Transformer的机器翻译，并且使用gradio框架写了一个页面用于输入句子进行翻译</h>
+
 <p>
   This project's reference to <a href ="https://arxiv.org/pdf/1706.03762v7.pdf" title = "Attention Is All You Need">Attention Is All You Need</a> and <a href = "https://github.com/hkproj/pytorch-transformer" title = "基于Pytorch实现Transoformer的机器翻译">Pytorch-based release Transoformer's machine translator</a>.
 </p>
-
-<p><strong>1.The project structure</strong></p>
-<hr style="border : 1px dashed blue;" />
+<p><strong>1.Project structure</strong></p>
 
 ````
 
@@ -62,14 +62,14 @@ translate.py(input a single sentence and translate it)
 ````
 <p>Notice: above give some files,when you train youselves dataset,please chanage the path</p>
 <hr style="border : 1px dashed blue;" />
-<p><strong>2.train en_it</strong></p>
+<p><strong>2.Train en_it</strong></p>
 train process is not complicate，configuration information in config.py file，here give the train 720 epoch's weights file：
 
 link：[https://pan.baidu.com/s/1g5Y38okBPb4AnE7A2RFaww ](https://pan.baidu.com/s/1g5Y38okBPb4AnE7A2RFaww )
 Extract code：1n54
 
 <hr style="border : 1px dashed blue;" />
-<p><strong>3.train en_zh</strong></p>
+<p><strong>3.Train en_zh</strong></p>
 
 train process is not complicate，configuration information in zh en config.py's file，here give the 146 and 14 epoch's weights file：
 
@@ -85,7 +85,7 @@ link：[https://pan.baidu.com/s/1FduLVLHnnkf2vXMf39lDgQ](https://pan.baidu.com/s
 
 Extract code：evhe
 
-<p><strong>4.inference</strong></p>
+<p><strong>4.Inference</strong></p>
 train app.py(please change youselves file path)
 
 run and then output a url：
