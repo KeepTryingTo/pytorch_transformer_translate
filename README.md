@@ -1,6 +1,6 @@
 <p align = "center">
-	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/any_text-you_like-blue"/></a>
-	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/just%20the%20message-8A2BE2"/></a>
+	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/Pytorch-NLP-%23CC05FF"/></a>
+	<a href = "https://blog.csdn.net/Keep_Trying_Go?spm=1010.2135.3001.5421"><img src = "https://img.shields.io/badge/Pytorch-Transformer-door"/></a>
 </p>
 
 # pytorch_transformer_translate
@@ -85,7 +85,7 @@ link：[https://pan.baidu.com/s/1FduLVLHnnkf2vXMf39lDgQ](https://pan.baidu.com/s
 
 Extract code：evhe
 
-<p><strong>3.inference</strong></p>
+<p><strong>4.inference</strong></p>
 train app.py(please change youselves file path)
 
 run and then output a url：
