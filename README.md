@@ -10,7 +10,7 @@
 <p>
   This project's reference to <a href ="https://arxiv.org/pdf/1706.03762v7.pdf" title = "Attention Is All You Need">Attention Is All You Need</a> and <a href = "https://github.com/hkproj/pytorch-transformer" title = "基于Pytorch实现Transoformer的机器翻译">Pytorch-based release Transoformer's machine translator</a>.
 </p>
-<p><strong>1.Project Environment</strong></p>
+<p><strong>Project Environment</strong></p>
 
 ```
 Device: Server
