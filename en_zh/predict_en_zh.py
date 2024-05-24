@@ -17,7 +17,7 @@ from tokenizers.models import WordLevel
 from tokenizers.trainers import WordLevelTrainer
 from tokenizers.pre_tokenizers import Whitespace
 
-from torch_transformer_translate.en_it.model import build_transformer
+from torch_transformer_translate.en_zh.model import build_transformer
 
 device = 'cpu' if torch.cuda.is_available() else 'cpu'
 
@@ -88,7 +88,8 @@ def get_model(config, vocab_src_len, vocab_tgt_len):
     model = build_transformer(
         src_vocab_size=vocab_src_len, tgt_vocab_size=vocab_tgt_len,
         src_seq_len=config["seq_len"],
-        tgt_seq_len=config['seq_len'], d_model=config['d_model']
+        tgt_seq_len=config['seq_len'],
+        d_model=config['d_model']
     )
     return model
 
@@ -109,8 +110,13 @@ def predict(en_sentence='I have a dream',model_name = r'en_zh01_weights/tmodel_1
                 'r', encoding='utf-8') as fn:
             lines = json.load(fn)
     # Build tokenizers 分别得到英文和中文的分词器
+    if dataset_index == 2:
+        config['tokenizer_file'] = r"D:\conda3\Transfer_Learning\NLP\projects\torch\torch_transformer_translate\en_zh\dataset\zh_en_dataset\tokenizer_{0}02.json"
     tokenizer_src = get_or_build_tokenizer(config, lines, lang='en', index=0)
     tokenizer_tgt = get_or_build_tokenizer(config, lines, lang='zh', index=1)
+
+    print('source tokenizer vocab size: {}'.format(tokenizer_src.get_vocab_size()))
+    print('target tokenizer vocab size: {}'.format(tokenizer_tgt.get_vocab_size()))
 
     # 加载模型
     model = get_model(
@@ -123,7 +129,8 @@ def predict(en_sentence='I have a dream',model_name = r'en_zh01_weights/tmodel_1
             r'D:\conda3\Transfer_Learning\NLP\projects\torch\torch_transformer_translate\en_zh\weights',
             model_name
         ),
-        map_location='cpu')['model_state_dict']
+        map_location='cpu'
+    )['model_state_dict']
     model.load_state_dict(checkpoint)
 
     # 对要翻译的句子进行向量化
@@ -180,5 +187,5 @@ if __name__ == '__main__':
     en: I think the weather is beautiful today.
     en: I feel the weather is beautiful today. Do you want to go out for a walk?
     """
-    predict(en_sentence="I think the weather is beautiful today.")
+    predict(en_sentence="I think the weather is beautiful today.",model_name='en_zh02_weights/tmodel_22.pt',dataset_index=2)
     pass

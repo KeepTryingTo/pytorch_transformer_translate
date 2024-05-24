@@ -15,13 +15,13 @@ def get_config():
         "lr": 10**-4,
         "seq_len": 350, #表示句子最大长度（包含填充部分pad）
         "d_model": 512, #每一词表示的词嵌入向量大小
-        "datasource": r'weights/en_zh01', #加载的数据集
+        "datasource": r'weights/en_zh01', #保存权重文件的位置
         "lang_src": "en", #英语数据集
         "lang_tgt": "zh", #中文数据集
         "model_folder": r"weights",
         "model_basename": "tmodel_",
         "preload": "latest",
-        "tokenizer_file": r"D:\conda3\Transfer_Learning\NLP\projects\torch\torch_transformer_translate\en_zh\dataset\zh_en_dataset/tokenizer_{0}.json",#分词器文件保存位置
+        "tokenizer_file": r"D:\conda3\Transfer_Learning\NLP\projects\torch\torch_transformer_translate\en_zh\dataset\zh_en_dataset\tokenizer_{0}.json",#分词器文件保存位置
         "experiment_name": r"./runs/en_zh01_weights/"
     }
 
