@@ -8,7 +8,7 @@
 <h>使用pytorch深度学习框架，基于Transformer的机器翻译，并且使用gradio框架写了一个页面用于输入句子进行翻译</h>
 
 <p>
-  This project's reference to <a href ="https://arxiv.org/pdf/1706.03762v7.pdf" title = "Attention Is All You Need">Attention Is All You Need</a> and <a href = "https://github.com/hkproj/pytorch-transformer" title = "基于Pytorch实现Transoformer的机器翻译">Pytorch-based release Transoformer's machine translator</a>.
+  This project's reference to <a href ="https://arxiv.org/pdf/1706.03762v7.pdf" title = "Attention Is All You Need">Attention Is All You Need</a> and <a href = "https://github.com/hkproj/pytorch-transformer" title = "基于Pytorch实现Transoformer的机器翻译">Pytorch-based release Transoformer's machine translator</a>.About explain the detail,please click <a href ="https://blog.csdn.net/Keep_Trying_Go/article/details/139129905">here</a> to view.
 </p>
 <p><strong>Project Environment</strong></p>
 
