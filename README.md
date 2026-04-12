@@ -200,3 +200,14 @@ translate.py(将训练好的模型用于用户输入句子的翻译)
 （2）测试从英语到中文的翻译结果：
 <img src = "https://github.com/KeepTryingTo/pytorch_transformer_translate/blob/main/images/en_zh.png"/>
 <img src = "https://github.com/KeepTryingTo/pytorch_transformer_translate/blob/main/images/en_zh02.png"/>
+
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=KeepTryingTo%2Fpytorch_transformer_translate&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=KeepTryingTo/pytorch_transformer_translate&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=KeepTryingTo/pytorch_transformer_translate&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=KeepTryingTo/pytorch_transformer_translate&type=date&legend=top-left" />
+ </picture>
+</a>
